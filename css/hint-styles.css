@@ -1,0 +1,203 @@
+/*
+ * Facebook
+ */
+.hint--facebook:after {
+  background-color: #3b5998;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #3b5998;
+}
+
+.hint--facebook.hint--top:before {
+  border-top-color: #3b5998;
+}
+
+.hint--facebook.hint--bottom:before {
+  border-bottom-color: #3b5998;
+}
+
+/*
+ * Academia
+ */
+.hint--academia:after {
+  background-color: #457313;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #457313;
+}
+
+.hint--academia.hint--top:before {
+  border-top-color: #457313;
+}
+
+.hint--academia.hint--bottom:before {
+  border-bottom-color: #457313;
+}
+
+/*
+ * Travel
+ */
+.hint--trv:after {
+  background-color: #801F15;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #801F15;
+}
+
+.hint--trv.hint--top:before {
+  border-top-color: #801F15;
+}
+
+.hint--trv.hint--bottom:before {
+  border-bottom-color: #801F15;
+}
+
+/*
+ * Code
+ */
+.hint--code:after {
+  background-color: #BA9A00;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #BA9A00;
+}
+
+.hint--code.hint--top:before {
+  border-top-color: #BA9A00;
+}
+
+.hint--code.hint--bottom:before {
+  border-bottom-color: #BA9A00;
+}
+
+/*
+ * Misc
+ */
+.hint--misc:after {
+  background-color: #032436;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #032436;
+}
+
+.hint--misc.hint--top:before {
+  border-top-color: #032436;
+}
+
+.hint--misc.hint--bottom:before {
+  border-bottom-color: #032436;
+}
+
+/*
+ * music
+ */
+.hint--music:after {
+  background-color: #6F1335;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #6F1335;
+}
+
+.hint--music.hint--top:before {
+  border-top-color: #6F1335;
+}
+
+.hint--music.hint--bottom:before {
+  border-bottom-color: #6F1335;
+}
+
+/*
+ * build
+ */
+.hint--build:after {
+  background-color: #804F15;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #804F15;
+}
+
+.hint--build.hint--top:before {
+  border-top-color: #804F15;
+}
+
+.hint--build.hint--bottom:before {
+  border-bottom-color: #804F15;
+}
+
+/*
+ * mail
+ */
+.hint--mail:after {
+  background-color: #F89A1E;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #F89A1E;
+}
+
+.hint--mail.hint--top:before {
+  border-top-color: #F89A1E;
+}
+
+.hint--mail.hint--bottom:before {
+  border-bottom-color: #F89A1E;
+}
+
+/*
+ * git
+ */
+.hint--git:after {
+  background-color: black;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: black;
+}
+
+.hint--git.hint--top:before {
+  border-top-color: black;
+}
+
+.hint--git.hint--bottom:before {
+  border-bottom-color: black;
+}
+
+/*
+ * birthday
+ */
+.hint--birthday:after {
+  background-color: #7B0F0F;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #7B0F0F;
+}
+
+.hint--birthday.hint--top:before {
+  border-top-color: #7B0F0F;
+}
+
+.hint--birthday.hint--bottom:before {
+  border-bottom-color: #7B0F0F;
+}
+
+/*
+ *youtube
+ */
+.hint--youtube:after {
+  background-color:#cc181e;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #cc181e;
+}
+
+.hint--youtube.hint--top:before {
+  border-top-color: #cc181e;
+}
+
+.hint--youtube.hint--bottom:before {
+  border-bottom-color: #cc181e;
+}
+/*
+ *soundcloud
+ */
+.hint--soundcloud:after {
+  background-color:#ff7700;
+  text-shadow: 1px 1px 1px #13547c;
+  border-color: #ff7700;
+}
+
+.hint--soundcloud.hint--top:before {
+  border-top-color: #ff7700;
+}
+
+.hint--soundcloud.hint--bottom:before {
+  border-bottom-color: #ff7700;
+}
+

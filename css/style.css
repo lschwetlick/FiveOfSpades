@@ -1,0 +1,362 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Droid+Serif);
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Droid Serif", serif;
+  color: #7f8c97;
+  background-color:black;
+}
+
+
+img {
+  max-width: 160%;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+/* -------------------------------- 
+
+Background
+
+-------------------------------- */
+#section1 {
+  height: 100vh;
+  top: 60px;
+  position: relative;
+  background-color: #303e49;
+  /* background: url("../img/home.jpg") no-repeat center center fixed; */
+  background: url("../img/impark.jpg") no-repeat center 0% scroll;
+  /* set scroll to fixed for hiding*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: background 1s linear;
+  -moz-transition: background 1s linear;
+  -o-transition: background 1s linear;
+  -ms-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+  height: 100vh;
+}
+
+#section2{
+	background-color: gray;
+	height: 100vh;
+	background: url("../img/konzert2.jpg") no-repeat center 0% scroll;
+   background-size: cover;
+   background-position: left center;
+	position:relative;
+}
+#section3{
+	background: url("../img/konzert.jpg")no-repeat center 0% scroll;
+   background-size: cover;
+   background-position: left center;
+	height: 100vh;
+	position: relative;
+}
+
+#section4{
+	background-color: black;
+/*	height: 100vh;*/
+	position: relative;
+}
+
+#impressum-link{
+	color: grey;
+	font-size: 12px;
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
+#imp{
+	background-color: black;
+	color: white;
+}
+/* -------------------------------- 
+
+banner
+
+-------------------------------- */
+
+.banner{
+	position: fixed;
+	background-color: black;
+	width: 100%;
+}
+#top-banner{
+	top:0;
+	height: 70px;
+	z-index: 999;
+
+}
+.flexitop{
+	width: 631px;
+	margin-left: 25%;
+	display: flex;
+	margin: auto;
+}
+
+.bandname {
+	position: relative;
+	font-size: 30px;
+	font-family: 'Rock Salt';
+	margin: auto;
+	color: white;
+	top: 20px;
+}
+.index-container{
+	color: white;
+	font-family: "Oswald";
+	font-size: 25px;
+	top:20px;
+	position: relative;
+	
+}
+.index-container > a{
+margin-right: 10px;
+}
+.index-container-left{
+float: left;
+}
+.index-container-right{
+float: right;	
+}
+.social-buttons{
+	position: relative;
+
+	margin: 10px;
+}
+#social-buttons-left{
+	float: left;
+	left: 0;
+}
+#social-buttons-right{
+	float: right;
+	right:0;
+}
+.social-buttons > a{
+	margin-left: 15px;
+}
+#sc:hover{
+color: #ff7700;
+}
+#mail:hover {
+  color: #B88A00;
+}
+
+#fb:hover {
+  color: #3b5998;
+}
+
+#yt:hover {
+  color: #cc181e;
+}
+/* -------------------------------- 
+
+Section Banner
+
+-------------------------------- */
+.section-banner{
+	position: absolute;
+	top:0px;
+	height: 60px;
+	background-color: #201F1F ;
+	color: #bcbcbc;
+	width: 100%;
+/*	border-color: white;
+	border-width: 2px;
+	border-style: solid;*/
+}
+.section-title{
+	font-family: "Oswald";
+	text-align: center;
+	top: -8px;
+	position: relative;
+}
+
+
+
+/* -------------------------------- 
+
+Section Music
+
+-------------------------------- */
+
+#SoundCloud-player{
+	position: relative;
+	height: 66%;
+	width: 50%;
+	margin: auto;
+	top: 120px;
+}
+/* -------------------------------- 
+
+Section When
+
+-------------------------------- */
+#concert-box{
+	background: rgba(200, 200, 200, 0.69);
+/*	width: 50%;*/
+	height:50%;
+	position: absolute;
+	padding: 20px;
+	font-family: "Open Sans", sans-serif;
+	border-radius: 5px;
+	top: 25%;
+   left: 15%;
+
+}
+table{
+	width: 100%;
+	margin: 5vh;
+	font-size: 3vh;
+	color: rgba(50, 50, 50, 1);
+}
+#concert-box > p{
+	font-size: 4vh;
+	color: black;
+	font-weight: bolder;
+}
+td>a{
+	color: rgb(50, 50, 50) !important;
+	text-decoration: underline !important;
+	
+}
+td{
+	width: 15vw;
+}
+/* -------------------------------- 
+
+Section Who's Who
+
+-------------------------------- */
+#portraits-box{
+	padding: 90px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.portraits{
+	width: 340px;
+	height: auto;
+	margin: 20px;
+}
+.portraits > img{
+	height: auto;
+	width: auto;
+	max-height: 30vh;
+	min-height: 100px;
+	max-width: 15vw;
+	min-width: 67px;
+}
+.portrait-text{
+	width: 220px;
+	float: right;
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	padding-top: 10vh;
+	padding-left: 10px;
+}
+.name{
+	font-size: 19px;
+	font-weight: bolder;
+}
+
+.bottom-banner{
+	display:none;
+}
+@media only screen and (max-width: 930px) {
+	.bandname{
+		font-size: 25px;	
+	}
+	.index-container{
+		font-size: 20px;
+		
+	}
+	.flexitop{
+		width: 520px;	
+	}
+	i{
+		font-size: 2em !important;	
+	}
+	#top-banner{
+		height:60px;	
+	}
+	.social-buttons{
+		margin:5px;
+		top: 10px;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.index-container{
+		width: 150px;
+	}
+	.flexitop{
+		width: 300px;
+	}
+	.index-container{
+		top:10px;	
+	}
+	.bandname{
+		top: 5px;	
+	}
+}
+@media only screen and (max-width: 520px){
+	.social-buttons{
+		display: none;
+	}
+	.bottom-banner{
+		display: inline-block;
+		background-color: black;
+		height:50px;
+		position: absolute;
+		bottom: 0px;
+		width: 100%	
+	}
+	.bottom-social{
+		margin: auto;
+		width: 185px;
+		position: relative;
+		top:3px;
+			
+	}
+	.bottom-social > a{
+		margin: 7px;
+	}
+	.name{
+		font-size: 15px;	
+	}
+	.portrait-text{
+		width: 150px;
+	}
+	#portraits-box{
+		padding: 50px;
+	}
+	td{
+		width: 10vw;	
+	}
+	#concert-box{
+		left:5%;	
+	}
+}
+@media only screen and (max-height: 535px){
+	#SoundCloud-player{
+		height: 276px;
+	}
+}
