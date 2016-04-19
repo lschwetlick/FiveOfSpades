@@ -372,7 +372,7 @@ Section Who's Who
 		width: auto;
 	}
 	.flexitop{
-		width: 330x;
+		width: 330px;
 	}
 	.index-container{
 		top:10px;	
@@ -477,6 +477,12 @@ Section Who's Who
 		.top-banner{
 			height: auto ;		
 		}
+}
+
+@media only screen and (max-width: 360px){
+	.portrait-text{
+		float:none;	
+	}
 }
 /*@media only screen and (mim-height 1200px) and (max-width 1000px){
 	.concert-box{

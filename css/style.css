@@ -478,6 +478,15 @@ Section Who's Who
 			height: auto ;		
 		}
 }
+
+@media only screen and (max-width: 360px){
+	.portrait-text{
+		float:none;	
+		padding-left: 0px;
+/*		padding-top: 2vh;*/
+		
+	}
+}
 /*@media only screen and (mim-height 1200px) and (max-width 1000px){
 	.concert-box{
 		left:	5%;
