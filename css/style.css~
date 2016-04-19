@@ -465,8 +465,11 @@ Section Who's Who
 			word-break: break-all;
 		}
 		tr>td{
-			width: 25vw;
+			width: 30vw;
 			min-width: 50px;		
+		}
+		.top-banner{
+			height auto;		
 		}
 }
 /*@media only screen and (mim-height 1200px) and (max-width 1000px){
