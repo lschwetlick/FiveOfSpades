@@ -1,5 +1,61 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Droid+Serif);
 
+/*Reset Shit*/
+html, body, div, span, applet, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+ abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul,
+fieldset, form, label, legend,
+caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* unvisited link */
+a:link, a:visited, a:active {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: purple;
+    text-decoration: none;
+}
+
 /* -------------------------------- 
 
 Primary style
@@ -76,6 +132,7 @@ Background
 	background-color: black;
 /*	height: 100vh;*/
 	position: relative;
+	min-height: 100vh;
 }
 
 #impressum-link{
@@ -204,7 +261,8 @@ Section Music
 	height: 66%;
 	width: 50%;
 	margin: auto;
-	top: 120px;
+	top: 20vh;
+	max-height: 380px;
 }
 /* -------------------------------- 
 
@@ -213,21 +271,30 @@ Section When
 -------------------------------- */
 #concert-box{
 	background: rgba(200, 200, 200, 0.69);
-/*	width: 50%;*/
-	height:50%;
+	/*width: 50vw;*/
+	/*height:50%;*/
 	position: absolute;
 	padding: 20px;
 	font-family: "Open Sans", sans-serif;
 	border-radius: 5px;
 	top: 25%;
    left: 15%;
-
+	box-sizing: border-box;
 }
 table{
-	width: 100%;
-	margin: 5vh;
+	margin-top: 5vh;
 	font-size: 3vh;
 	color: rgba(50, 50, 50, 1);
+   margin-bottom: 5vh;
+   margin-left: 5vh;
+
+}
+tr>td{
+	font-size: 100%;
+	padding-right: 21px;
+	padding-bottom: 5px;
+	width: 21vw;
+	min-width: 175px;
 }
 #concert-box > p{
 	font-size: 4vh;
@@ -238,9 +305,6 @@ td>a{
 	color: rgb(50, 50, 50) !important;
 	text-decoration: underline !important;
 	
-}
-td{
-	width: 15vw;
 }
 /* -------------------------------- 
 
@@ -253,7 +317,7 @@ Section Who's Who
 	flex-wrap: wrap;
 }
 .portraits{
-	width: 340px;
+	width: auto;
 	height: auto;
 	margin: 20px;
 }
@@ -316,6 +380,31 @@ Section Who's Who
 	.bandname{
 		top: 5px;	
 	}
+	tr>td{
+		font-size: 80%;
+		min-width: 156px;
+		padding-right: 10px;
+	}
+
+	#concert-box{
+		left: 5%;	
+	}
+	table{
+		margin-left: 4vw;
+	}
+	
+
+}
+@media only screen and (max-width: 570px) {
+		tr>td{
+		font-size: 60%;
+		min-width: 115px;
+	padding-right:5px;
+	}
+	.portrait-text{
+		padding-top: 5vh;
+	}
+
 }
 @media only screen and (max-width: 520px){
 	.social-buttons{
@@ -348,15 +437,31 @@ Section Who's Who
 	#portraits-box{
 		padding: 50px;
 	}
-	td{
-		width: 10vw;	
-	}
-	.concert-box{
+
+	#concert-box{
 		left:5%;	
 	}
+
 }
 @media only screen and (max-height: 535px){
 	#SoundCloud-player{
-		height: 276px;
+		min-height: 276px;
+		top: 22vh;
 	}
 }
+@media only screen and (min-height 1200px){
+	table{
+		font-size: 2vh;	
+	}
+	tr>td{
+		min-width: 211;	
+	}
+}
+/*@media only screen and (mim-height 1200px) and (max-width 1000px){
+	.concert-box{
+		left:	5%;
+	}
+	tr>td{
+		min-width: 259px;	
+	}
+}*/
