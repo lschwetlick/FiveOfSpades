@@ -184,7 +184,6 @@ banner
 	top:20px;
 	position: relative;
 	width:auto;
-	min-width: 90px;
 	
 }
 .index-container > a{
@@ -373,7 +372,7 @@ Section Who's Who
 		width: auto;
 	}
 	.flexitop{
-		width: 300px;
+		width: 330x;
 	}
 	.index-container{
 		top:10px;	
