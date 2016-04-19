@@ -165,7 +165,6 @@ banner
 }
 .flexitop{
 	width: 631px;
-	margin-left: 25%;
 	display: flex;
 	margin: auto;
 }
@@ -369,7 +368,7 @@ Section Who's Who
 }
 @media only screen and (max-width: 750px) {
 	.index-container{
-		width: 150px;
+		width: auto;
 	}
 	.flexitop{
 		width: 300px;
@@ -456,6 +455,19 @@ Section Who's Who
 	tr>td{
 		min-width: 211;	
 	}
+}
+@media only screen and (max-width: 440px){
+		#concert-box{
+			left: 0px;		
+		}		
+		table{
+			margin-left:0px;	
+			word-break: break-all;
+		}
+		tr>td{
+			width: 25vw;
+			min-width: 50px;		
+		}
 }
 /*@media only screen and (mim-height 1200px) and (max-width 1000px){
 	.concert-box{
