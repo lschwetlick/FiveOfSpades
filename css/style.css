@@ -369,7 +369,7 @@ Section Who's Who
 }
 @media only screen and (max-width: 750px) {
 	.index-container{
-		width: 150px;
+		width: auto;
 	}
 	.flexitop{
 		width: 300px;
@@ -420,7 +420,7 @@ Section Who's Who
 	}
 	.bottom-social{
 		margin: auto;
-		width: 185px;
+		width: 200px;
 		position: relative;
 		top:3px;
 			
