@@ -183,6 +183,8 @@ banner
 	font-size: 25px;
 	top:20px;
 	position: relative;
+	width:auto;
+	min-width: 90px;
 	
 }
 .index-container > a{
