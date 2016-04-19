@@ -456,6 +456,11 @@ Section Who's Who
 		min-width: 211;	
 	}
 }
+@media only screen and (min-height: 800px) and (max-width: 800px){
+	#concert-box{
+		left: 0%;	
+	}
+}
 @media only screen and (max-width: 440px){
 		#concert-box{
 			left: 0px;		
@@ -469,7 +474,7 @@ Section Who's Who
 			min-width: 50px;		
 		}
 		.top-banner{
-			height auto;		
+			height: auto ;		
 		}
 }
 /*@media only screen and (mim-height 1200px) and (max-width 1000px){

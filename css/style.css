@@ -159,7 +159,7 @@ banner
 }
 #top-banner{
 	top:0;
-	height: auto;
+	height: 70px;
 	z-index: 999;
 
 }
@@ -359,7 +359,7 @@ Section Who's Who
 		font-size: 2em !important;	
 	}
 	#top-banner{
-		height:auto;	
+		height:60px;	
 	}
 	.social-buttons{
 		margin:5px;
@@ -456,6 +456,11 @@ Section Who's Who
 		min-width: 211;	
 	}
 }
+@media only screen and (min-height: 850px) and (max-width: 800px){
+	#concert-box{
+		left: 0%;	
+	}
+}
 @media only screen and (max-width: 440px){
 		#concert-box{
 			left: 0px;		
@@ -469,7 +474,7 @@ Section Who's Who
 			min-width: 50px;		
 		}
 		.top-banner{
-			height auto;		
+			height: auto ;		
 		}
 }
 /*@media only screen and (mim-height 1200px) and (max-width 1000px){
