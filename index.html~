@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Five Of Spades</title>
-<!--	<meta property="og:image" content="http://lisaschwetlick.de/img/og.jpg">-->
+	<meta property="og:image" content="http://lisaschwetlick.de/img/impark.jpg">-->
 	<meta property="og:title" content="Five of Spades">
 	<meta property="og:description" content="Five of Spades is a Berlin-based rock band that started out in 2012">	
 	<meta property="og:url" content="http://fiveofspades.de">
-<!--	<link rel="shortcut icon" href="http://lisaschwetlick.de/img/favicon.ico">-->
+	<link rel="shortcut icon" href="http://lisaschwetlick.de/img/favicon.ico">-->
 	<!-- CSS styles -->
 	
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
